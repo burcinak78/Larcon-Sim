@@ -1,0 +1,13 @@
+# Yalnızca lokal geliştirme: iç servisleri host'a açar.
+# Sunucuda kullanılmaz (deploy: docker compose -f docker-compose.yml ...).
+services:
+  db:
+    ports:
+      - "5432:5432"
+  storage:
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # Konsol
+  backend:
+    ports:
+      - "8080:8080"

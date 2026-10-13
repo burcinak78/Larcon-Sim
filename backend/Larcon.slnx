@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Larcon.Api/Larcon.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Larcon.Api.Tests/Larcon.Api.Tests.csproj" />
+  </Folder>
+</Solution>
